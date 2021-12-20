@@ -24,13 +24,6 @@ public class Test1 {
 		driver.get("https://gmail.com");
 		System.out.println(driver.getTitle());
 		
-//		driver.navigate().to("https://amazon.ca");
-//		System.out.println(driver.getTitle());
-//		
-//		driver.navigate().to("https://gmail.com");
-//		System.out.println(driver.getTitle());
-//		
-//		driver.findElement(By.linkText("Sign in")).click();
 		driver.findElement(By.id("identifierId")).sendKeys("spractice2021@gmail.com");
 		
 		Actions actions = new Actions(driver);
